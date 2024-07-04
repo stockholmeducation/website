@@ -23,6 +23,20 @@
 nav a img {
     height: 275%;
 }
+html body a.color {
+
+
+        background-color: #ffffff;
+        border-color: #ffffff;
+        border: 1px solid #93d634;
+
+}
+a.color i {
+    color: #ffffff;
+}
+a.color i:hover {
+    color: #93d634;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -199,7 +213,7 @@ nav a img {
 }
 
 .page-header {
-    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.795)), url(../img/carousel-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -435,4 +449,27 @@ i {
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+@media (max-width: 480px) {
+    .navbar-light.sticky-top {
+        top: -100px;
+        transition: .5s;
+        padding: 15px 0px;
+    }
+    nav a img {
+        height: 245%;
+        margin-left: -18px;
+    }
+    .header-carousel .owl-nav {
+        position: absolute;
+        top: 86%;
+        right: 8%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+i.bi-chevron-left {
+    color: #fff;
 }
