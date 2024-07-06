@@ -31,10 +31,19 @@ html body a.color {
         border: 1px solid #93d634;
 
 }
+html {
+    scroll-behavior: smooth;
+}
+div.wht a {
+    color: #fff;
+}
 a.color i {
-    color: #ffffff;
+    color: #93d634;
 }
 a.color i:hover {
+    color: #93d634;
+}
+.change {
     color: #93d634;
 }
 
